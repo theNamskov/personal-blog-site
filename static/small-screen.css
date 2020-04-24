@@ -1,0 +1,123 @@
+body {
+    background: #1f1e1e;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 4em;
+    padding: 1em;
+    background: transparent;
+    color: inherit;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 3em 1em .5em 62%;
+    font-size: 1em;
+    text-align: right;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 40vh 1fr 10vh;
+    grid-template-columns: 96%;
+    margin-top: 1.5em;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    padding: 1.5em 0 2em .2em;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.text-gradient {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fdf9f6, #7d8081);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.blog-posts {
+    padding: 0 0 .5em .5em;
+}
+
+.blogs-collection {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 1em auto;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.4em;
+    box-shadow: 0 .5em 1em #656566;
+    min-height: 5vh;
+    padding: 20% 1.5em;
+}
+
+.blog-1 {
+    background: url("blog-1-background.png");
+}
+
+.blog-2 {
+    background: url("blog-2-background.png");
+}
+
+.blog-3 {
+    background: url("blog-3-background.png");
+    position: relative;
+}
+
+.blog-posts h2 {
+    font-size: 3em;
+    padding: .2em .5em 0 .5em;
+}
+
+.blogs-collection h3 {
+    font-size: 2.5em;
+}
+
+.timestamp {
+    font-size: 1em;
+}
+
+.icon {
+    height: 1em;
+    width: 1em;
+    margin: .8em .5em -.2em .5em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+    font-size: 2.5em;
+    font-weight: 1000;
+    min-height: 5em;
+    background: linear-gradient(to bottom right, #1b1b1b, #242323, #262627, #414242, #606163, #7c7b7a);
+    box-shadow: 0 0 1em #252727;
+}
+
+.logo {
+    text-decoration: none;
+    margin-left: -1.2em;
+}
+
+.logo span img {
+    height: 2em;
+    width: 2em;
+    margin: .2em -1.5em -.6em .2em;
+}

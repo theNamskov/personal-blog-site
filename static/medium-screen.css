@@ -1,0 +1,15 @@
+nav {
+    padding-left: 9%;
+}
+
+nav > a {
+    font-size: 1.4em;
+}
+
+.brand {
+    font-size: 6em;
+}
+
+.blog-posts h2 {
+    font-size: 4em;
+}

@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+}
+
+nav {
+    padding-left: 22vw;
+}
+
+.brand {
+    font-size: 10em;
+    margin: -.5em 0 1em 0;
+}
+
+.blogs-collection {
+    flex-direction: row;
+}
+
+.card {
+    width: 70vw;
+    margin: 1em .5em;
+    height: 3vh;
+    z-index: 1;
+}
+
+.card:hover {
+    transform: scale(1.02, 1.02);
+    z-index: 2;
+}

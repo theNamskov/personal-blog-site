@@ -1,0 +1,17 @@
+@import url("small-screen.css") screen and (min-width: 20rem);
+@import url("medium-screen.css") screen and (min-width: 48em);
+@import url("large-screen.css") screen and (min-width: 62em);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+@font-face {
+    src: url('font/Roboto-Medium.ttf');
+    font-style: normal;
+    font-family: 'roboto';
+    font-display: swap;
+}
