@@ -44,6 +44,7 @@ h2, h3 {
 #content h1 {
     max-width: 80%;
     padding: 20vh 0 0 5vw;
+    font-size: 2.2em;
 }
 
 #content header::before {
@@ -160,7 +161,7 @@ button {
     font-size: 1.5em;
     font-weight: 1000;
     min-height: 5em;
-    background: linear-gradient(to bottom right, #1b1b1b, #242323, #262627, #414242, #606163, #7c7b7a);
+    background: linear-gradient(to bottom right, #1b1b1b, #242323, #1e1e1f, #1d1f1f, #222222, #1a1919);
     box-shadow: 0 0 1em #252727;
 }
 
