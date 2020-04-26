@@ -16,6 +16,11 @@ nav {
     flex-direction: row;
 }
 
+.blog-1, .blog-2, .blog-3 {
+    background-position: 7vw;
+    text-overflow: ellipsis;
+}
+
 .card {
     width: 70vw;
     margin: 1em .5em;
