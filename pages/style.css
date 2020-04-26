@@ -90,7 +90,7 @@ button {
     font-size: 1em;
     padding: 0 .5em;
     color: #1f1e1e;
-    background: #dbdbdb;
+    background: linear-gradient(#fdf9f6, #7d8081);
     border: none;
     border-radius: .2em;
     box-shadow: 0 0 .5em #949797;
