@@ -86,7 +86,7 @@ h2, h3 {
 
 button {
     width: 30%;
-    min-height: 4vh;
+    min-height: 8vh;
     font-size: 1em;
     padding: 0 .5em;
     border: none;
@@ -184,7 +184,7 @@ button {
 
     button {
         font-size: 1.2em;
-        min-height: 6vh;
+        min-height: 8vh;
         width: 25%;
     }
 
