@@ -123,13 +123,13 @@ button {
 #review form input {
     height: 8vh;
     margin: 2em 0;
-    padding: 0 .5em;
+    padding: 0 1em;
     font-family: "roboto-thin";
     font-size: 1em;
 }
 
 #review form input::placeholder {
-    padding: 0 .5em;
+    padding: 0 .5em 0 -.5em;
     font-size: 1em;
     font-family: "roboto-thin";
     color: #949797;
