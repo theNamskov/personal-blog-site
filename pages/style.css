@@ -186,6 +186,7 @@ button {
         font-size: 1.2em;
         min-height: 8vh;
         width: 25%;
+        color: #949797;
     }
 
     #review form input {
