@@ -107,7 +107,7 @@ button {
 
 #review {
     box-sizing: border-box;
-    margin: 1em 1em;
+    margin: .5em 0 2em 1em;
 }
 
 #review form {
