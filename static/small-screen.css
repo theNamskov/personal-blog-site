@@ -12,12 +12,6 @@ header {
     padding-left: 15%;
 }
 
-nav {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
 nav > a {
     text-decoration: none;
     padding: 3em 1em .5em 62%;
@@ -27,7 +21,7 @@ nav > a {
 
 main {
     display: grid;
-    grid-template-rows: 40vh 1fr 10vh;
+    grid-template-rows: 40vh 1fr 9vh;
     grid-template-columns: 96%;
     margin-top: 1.5em;
 }
@@ -48,6 +42,7 @@ main {
 }
 
 .blog-posts {
+    box-sizing: border-box;
     padding: 0 0 .5em .5em;
 }
 
@@ -82,7 +77,7 @@ main {
 }
 
 .blog-posts h2 {
-    font-size: 3em;
+    font-size: 2.4em;
     padding: .2em .5em 0 .5em;
 }
 
@@ -105,7 +100,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;    
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: 1000;
     min-height: 5em;
     background: linear-gradient(to bottom right, #1b1b1b, #242323, #262627, #414242, #606163, #7c7b7a);
@@ -122,3 +117,11 @@ footer {
     width: 2em;
     margin: .2em -1.5em -.6em .2em;
 }
+
+.glaze-in {
+    transform: translate()
+}
+
+/* @keyframes glaze {
+    from: translate
+} */

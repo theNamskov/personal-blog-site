@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+body, input, textarea {
+    background: #1f1e1e;
+    color: rgb(212, 208, 208);
+}
+
+main {
+    box-sizing: border-box;
+}
+
+section p {
+    font-family: 'roboto-thin';
+    line-height: 2em;
+    padding:  .5em 0 1em 1em;
+}
+
+.text-gradient, h1, h2, h3 {
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fdf9f6, #7d8081);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+h1, h2, h3 {
+    padding: 1em 0 0 1em;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: 92%;
+}
+
+#intro {
+    
+}
+
+#review {
+    box-sizing: border-box;
+    margin: 1em 1em;
+}
+
+#review form {
+    display: flex;
+    flex-direction: column;
+}
+
+#review form input {
+    margin: 1em 0;
+}
+
+#blog-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+    font-size: 1.5em;
+    font-weight: 1000;
+    min-height: 5em;
+    background: linear-gradient(to bottom right, #1b1b1b, #242323, #262627, #414242, #606163, #7c7b7a);
+    box-shadow: 0 0 1em #252727;
+}
+
+.logo {
+    /* text-decoration: none;
+    margin-left: -1.2em; */
+    display: flex;
+}
+
+.logo span img {
+    height: 2em;
+    width: 2em;
+    /* margin: .2em -1.5em -.4em .2em; */
+}
+
+@font-face {
+    src: url('../static/font/Roboto-Medium.ttf');
+    font-style: normal;
+    font-family: 'roboto';
+    font-display: swap;
+}
+
+@font-face {
+    src: url('../static/font/Roboto-Light.ttf');
+    font-style: normal;
+    font-family: 'roboto-thin';
+    font-display: swap;
+
+}

@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    z-index: 5;
 }
 
 nav {
@@ -25,4 +26,8 @@ nav {
 .card:hover {
     transform: scale(1.02, 1.02);
     z-index: 2;
+}
+
+footer {
+    justify-content: safe;
 }

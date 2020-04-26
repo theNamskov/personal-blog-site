@@ -13,3 +13,8 @@ nav > a {
 .blog-posts h2 {
     font-size: 4em;
 }
+
+footer {
+    flex-direction: row;
+    align-items: center;
+}

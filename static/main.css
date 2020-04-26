@@ -9,6 +9,12 @@
     font-family: "roboto";
 }
 
+@media screen and (min-width: 560px) {
+    .blog-posts {
+        padding-top: 4em;
+    }
+}
+
 @font-face {
     src: url('font/Roboto-Medium.ttf');
     font-style: normal;
