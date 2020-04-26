@@ -64,16 +64,22 @@ main {
 }
 
 .blog-1 {
-    background: url("blog-1-background.png");
+    background: url("blog-1-background.png") no-repeat;
+    background-size: cover;
+    background-position: 50vw;
+
 }
 
 .blog-2 {
-    background: url("blog-2-background.png");
+    background: url("blog-2-background.png") no-repeat;
+    background-size: cover;
+    background-position: 50vw;
 }
 
 .blog-3 {
-    background: url("blog-3-background.png");
-    position: relative;
+    background: url("blog-3-background.png") no-repeat;
+    background-size: cover;
+    background-position: 50vw;
 }
 
 .blog-posts h2 {

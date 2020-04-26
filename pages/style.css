@@ -26,7 +26,7 @@ section p {
     background-clip: text;
 }
 
-h1, h2, h3 {
+h2, h3 {
     padding: 1em 0 0 1em;
 }
 
@@ -34,6 +34,51 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     max-width: 92%;
+}
+
+#content header {
+    background: url("../static/blog-3-background.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 30vh;
+    min-width: 100vw;
+}
+
+.header-text {
+    z-index: 3;
+}
+
+#content h1 {
+    padding: 40vw 0 0 5vw;
+}
+
+#content header::before {
+    content: "";
+    position: absolute;
+    max-height: 30vh;
+    min-width: 100vw;
+    background: rgba(114, 112, 112, 0.685);
+    z-index: 2;
+}
+
+#content footer {
+    margin: 20vh 0 10vh 5vw;
+}
+
+.avatar {
+    height: 2em;
+    width: 2em;
+    margin: 0 .3em -.5em 0;
+}
+
+.timestamp {
+    display: inline;
+}
+
+.icon {
+    height: 1em;
+    width: 1em;
+    margin: .5em .4em 0 1em;
 }
 
 #intro {
