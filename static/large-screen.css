@@ -3,8 +3,8 @@ header {
     z-index: 5;
 }
 
-nav {
-    padding-left: 22vw;
+nav > a {
+    padding: 1em 0 0 30%;
 }
 
 .brand {
@@ -16,10 +16,9 @@ nav {
     flex-direction: row;
 }
 
-.blog-1, .blog-2, .blog-3 {
+/* .blog-1, .blog-2, .blog-3 {
     background-position: 7vw;
-    text-overflow: ellipsis;
-}
+} */
 
 .card {
     width: 70vw;

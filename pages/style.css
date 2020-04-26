@@ -37,23 +37,13 @@ h2, h3 {
     text-overflow: clip;
 }
 
-#content header {
-    box-sizing: border-box;
-    background: url("../static/blog-3-background.png") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 1vw;
-    min-height: 30vh;
-    min-width: 98vw;
-}
-
 .header-text {
     z-index: 3;
 }
 
 #content h1 {
     max-width: 80%;
-    padding: 40vw 0 0 5vw;
+    padding: 20vh 0 0 5vw;
 }
 
 #content header::before {
@@ -76,6 +66,10 @@ h2, h3 {
     margin: 0 .3em -.5em 0;
 }
 
+.author {
+    font-weight: 990;
+}
+
 .timestamp {
     display: inline;
 }
@@ -87,21 +81,70 @@ h2, h3 {
 }
 
 #intro {
-    text
+    font-style: italic;
+}
+
+button {
+    width: 30%;
+    min-height: 4vh;
+    font-size: 1em;
+    padding: 0 .5em;
+    border: none;
+    border-radius: .2em;
+    box-shadow: 0 0 .5em #7d8081;
+}
+
+.like-button {
+    box-sizing: border-box;
+    margin: .5em 0 1.5em 0;
+}
+
+.like-button img {
+    width: 1em;
+    height: 1em;
+    margin: 0 .4em;
 }
 
 #review {
     box-sizing: border-box;
-    margin: 1em 1em;
+    margin: 2em 1em;
 }
 
 #review form {
+    font-family: "roboto-thin";
     display: flex;
     flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #review form input {
-    margin: 1em 0;
+    height: 5vh;
+    margin: 2em 0;
+}
+
+#review form input::placeholder {
+    padding: 0 .5em;
+    font-size: 1.2em;
+    font-family: "roboto-thin";
+    color: #949797;
+}
+
+#review form textarea {
+    padding: .5em;
+    font-size: 1em;
+    font-family: "roboto-thin";
+    color: #949797;
+}
+
+#review form input, textarea {
+    border: none;
+    border-radius: .1em;
+    box-shadow: 0 0 .2em #626464;
+}
+
+.submit-button {
+    margin: 1em 0 0 70%;
 }
 
 #blog-footer {
@@ -117,15 +160,45 @@ h2, h3 {
 }
 
 .logo {
-    /* text-decoration: none;
-    margin-left: -1.2em; */
     display: flex;
 }
 
 .logo span img {
     height: 2em;
     width: 2em;
-    /* margin: .2em -1.5em -.4em .2em; */
+}
+
+@media screen and (min-width: 48em) {
+    #content section {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    #content {
+        margin-bottom: 2em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    button {
+        font-size: 1.2em;
+        min-height: 6vh;
+        width: 25%;
+    }
+
+    #review form input {
+        height: 6vh;
+    }
+
+    .like-button {
+        margin-left: 2%;
+    }
+
+    .submit-button {
+        margin-left: 75%;
+    }
 }
 
 @font-face {
