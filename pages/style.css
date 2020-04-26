@@ -96,7 +96,7 @@ button {
 
 .like-button {
     box-sizing: border-box;
-    margin: .5em 0 1.5em 0;
+    margin: 0 0 1.5em 0;
 }
 
 .like-button img {
@@ -107,7 +107,7 @@ button {
 
 #review {
     box-sizing: border-box;
-    margin: 2em 1em;
+    margin: 1em 1em;
 }
 
 #review form {
