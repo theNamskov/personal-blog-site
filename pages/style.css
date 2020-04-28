@@ -109,6 +109,10 @@ h2, h3 {
     font-style: italic;
 }
 
+blockquote {
+    padding-left: 5vw;
+}
+
 button {
     width: 30%;
     min-height: 7vh;
