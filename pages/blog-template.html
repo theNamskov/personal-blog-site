@@ -1,7 +1,7 @@
 <!-- All icons downloaded from fontawesome @ https://fontawesome.com
      All background images downloaded from undraw @ https://undraw.co
      Typography and font family downloaded from Google Fonts @f https://fonts.google.com
-     
+
      @author Ahornam Agbotse
 -->
 
@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog | Blog Template</title>
 
-    <link rel="stylesheet" href="blog-template.css">
+    <link rel="stylesheet" href="../static/css/blog-template.css">
 </head>
 
 <body>
@@ -26,11 +26,11 @@
     
                 <footer class="blog-meta header-text" aria-label="Article Footer">
                     <div class="bio" aria-label="Author Bio">
-                        <img class="avatar" src="../static/user-circle-solid.svg" alt="author avatar">
+                        <img class="avatar" src="../static/images/user-circle-solid.svg" alt="author avatar">
                         <span aria-label="author information">
                             <p class="header-text">Post by <strong class="author" aria-label="Author Name">thenamskov</strong>, Student at Udacity</p>
                             <p class="header-text" aria-label="short info">Front-End Developer</p>
-                            <div class="social header-text" aria-label="Social Media Handles"><a href="https://github.com/theNamskov" aria-label="GitHub Profile"><img src="../static/github-logo.svg" alt="gitHub logo"></a><a href="https://www.linkedin.com/in/thenamskov" aria-label="Linkedin Profile"><img src="../static/linkedin-logo.svg" alt="linkedin logo"></a><a href="https://twitter.com/thenamskov" aria-label="Twitter Handle"><img src="../static/twitter-logo.svg" alt="twitter logo"></a></div>
+                            <div class="social header-text" aria-label="Social Media Handles"><a href="https://github.com/theNamskov" aria-label="GitHub Profile"><img src="../static/images/github-logo.svg" alt="gitHub logo"></a><a href="https://www.linkedin.com/in/thenamskov" aria-label="Linkedin Profile"><img src="../static/images/linkedin-logo.svg" alt="linkedin logo"></a><a href="https://twitter.com/thenamskov" aria-label="Twitter Handle"><img src="../static/images/twitter-logo.svg" alt="twitter logo"></a></div>
                         </span>
                     </div>
                 </footer>
@@ -66,7 +66,7 @@
             </section>
 
             <section id="review">
-                <button class="like-button">Like <span><img src="../static/like.svg" alt="Like"></span></button>
+                <button class="like-button">Like <span><img src="../static/images/like.svg" alt="Like"></span></button>
                 <form>
                     <input type="text" name="" id="" placeholder="username">
                     <textarea name="" id="" cols="30" rows="10">Leave a comment...</textarea>
@@ -75,16 +75,16 @@
             </section>
 
             <section id="hyperlinks">
-                <a href="design-system.html">Previous: Design System</a>
+                <a class="text-left" href="design-system.html">Prev: Design...</a>
                 <a href="../index.html">Go to Home</a>
             </section>
         </article>
     </main>
 
     <footer id="blog-footer" aria-label="Footer Of Page">
-        <p class="trademark text-gradient">&copy; thenamskov</p>
+        <p class="trademark">&copy; thenamskov</p>
 
-        <a class="logo text-gradient" href="https://www.udacity.com">Inspired by <span><img src="../static/udacity-logo.png" alt="Udacity"></span></a>
+        <div class="udacity"><p>Inspired by </p> <a class="logo" href="https://www.udacity.com"><img src="../static/images/udacity-logo.png" alt="Udacity"></a></div>
     </footer>
 </body>
 </html>

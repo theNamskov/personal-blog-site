@@ -1,11 +1,5 @@
-nav > a {
-    width: 50%;
-    padding: 1em 0 1em 2em;
-    font-size: 1em;
-}
-
-.brand {
-    font-size: 2.7em;
+header {
+    margin: 2em 0;
 }
 
 .card {

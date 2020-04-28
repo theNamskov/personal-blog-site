@@ -2,9 +2,10 @@
 
 #content header {
     box-sizing: border-box;
-    background: url("../static/blog-1-background.png") no-repeat;
+    background: url("../images/blog-3-background.png");
     background-size: cover;
     background-attachment: fixed;
-    height: 70vh;
+    background-position: .5em;
+    min-height: 70vh;
     min-width: 98vw;
 }

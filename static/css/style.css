@@ -145,11 +145,11 @@ blockquote {
 
 button {
     width: 30%;
-    min-height: 7vh;
+    min-height: 3em;
     font-size: 1em;
     padding: 0 .5em;
-    color: #000000;
-    background: linear-gradient(#dddddd, #545455);
+    color: #1f1e1e;
+    background: #e4e4e4;
     border: none;
     border-radius: .2em;
     box-shadow: 0 0 .5em #353434;
@@ -225,7 +225,7 @@ button {
 
 #hyperlinks {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: space-between;
     margin: 3em 0 3em 5vw;
 }
@@ -233,28 +233,40 @@ button {
 #hyperlinks a {
     color: rgb(212, 208, 208);
     text-decoration: none;
-    width: 20%;
+    text-align: right;
+    width: 16%;
+    font-size: .8em;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
 }
 
 #blog-footer {
+    margin: 0 0 0 3%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;    
-    font-size: 1em;
+    font-size: .8em;
     font-weight: 500;
-    min-height: 5em;
+    min-height: 9vh;
     background: linear-gradient(to bottom right, #1b1b1b, #242323, #1e1e1f, #1d1f1f, #222222, #1a1919);
     box-shadow: 0 0 1em #252727;
 }
 
-.logo {
+.udacity {
     display: flex;
 }
 
-.logo span img {
+.logo img {
     height: 2em;
     width: 2em;
+    margin: 0 0 0 .5em;
 }
 
 @media screen and (min-width: 500px) {
@@ -267,7 +279,7 @@ button {
     }
 
     button {
-        min-height: 12vh;
+        /* min-height: 12vh; */
         width: 25%;
     }
 
@@ -319,14 +331,14 @@ button {
 }
 
 @font-face {
-    src: url('../static/font/Roboto-Medium.ttf');
+    src: url('../font/Roboto-Medium.ttf');
     font-style: normal;
     font-family: 'roboto';
     font-display: swap;
 }
 
 @font-face {
-    src: url('../static/font/Roboto-Light.ttf');
+    src: url('../font/Roboto-Light.ttf');
     font-style: normal;
     font-family: 'roboto-thin';
     font-display: swap;

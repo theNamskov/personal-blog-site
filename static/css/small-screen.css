@@ -6,35 +6,37 @@ body {
 header {
     position: absolute;
     box-sizing: border-box;
-    width: 96%;
-    height: 4em;
+    width: 96vw;
+    height: 3vh;
     background: transparent;
     color: inherit;
-    padding-left: 66%;
+    margin: 1em 0;
 }
 
 nav > a {
+    display: flex;
+    align-items: flex-end;
     color: inherit;
-    width: 30%;
+    width: 76.3px;
     text-decoration: none;
-    padding: 3em 1em .5em 0;
+    padding: 0 0 .5em calc(96vw - 76.3px);
     font-size: .8em;
     text-align: right;
 }
 
 main {
     display: grid;
-    grid-template-rows: 20vh 1fr 9vh;
-    grid-template-columns: 96%;
+    grid-template-rows: 20vh 1fr 15vh;
+    grid-template-columns: 96vw;
     margin-top: 1.5em;
 }
 
 .brand {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     padding: 1.5em 0 2em 3%;
-    font-size: 2.55em;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: 900;
 }
 
 .text-gradient {
@@ -65,19 +67,19 @@ main {
     border-radius: 0.4em;
     box-shadow: 0 .5em 1em #333333;
     min-height: 3vh;
-    padding: 15% .5em;
+    padding: 15% 1.5em;
 }
 
 .blog-1 {
-    background: url("blog-1-background.png") no-repeat;
+    background: url("../images/blog-1-background.png") no-repeat;
 }
 
 .blog-2 {
-    background: url("blog-2-background.png") no-repeat;
+    background: url("../images/blog-2-background.png") no-repeat;
 }
 
 .blog-3 {
-    background: url("blog-3-background.png") no-repeat;
+    background: url("../images/blog-3-background.png") no-repeat;
 
 }
 
@@ -89,7 +91,7 @@ main {
 } */
 
 .blog-posts h2 {
-    font-size: 2.2em;
+    font-size: 1.5em;
     padding: .2em .5em 0 0;
 }
 
@@ -108,24 +110,24 @@ main {
 }
 
 footer {
+    margin: 0 0 0 3%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;    
-    font-size: 1em;
+    font-size: .8em;
     font-weight: 500;
-    min-height: 5em;
+    min-height: 9vh;
     background: linear-gradient(to bottom right, #1b1b1b, #242323, #1e1e1f, #1d1f1f, #222222, #1a1919);
     box-shadow: 0 0 1em #252727;
 }
 
-.logo {
-    text-decoration: none;
-    margin-left: -1.2em;
+.udacity {
+    display: flex;
 }
 
-.logo span img {
+.logo img {
     height: 2em;
     width: 2em;
-    margin: .2em -1.5em -.6em .2em;
+    margin: 0 0 0 .5em;
 }

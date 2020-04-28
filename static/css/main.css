@@ -10,16 +10,23 @@
 }
 
 @media screen and (min-width: 560px) {
-    header {
-        padding-left: 75%;
-    }
     .blog-posts {
         padding-top: 4em;
     }
 }
 
+@media screen and (min-height: 1024px) {
+    main {
+        grid-template-rows: 10vh 1fr 14vh;
+    }
+
+    footer {
+        min-height: 12vh;
+    }
+}
+
 @font-face {
-    src: url("font/Roboto-Medium.ttf");
+    src: url("../font/Roboto-Medium.ttf");
     font-style: normal;
     font-family: 'roboto';
     font-display: swap;

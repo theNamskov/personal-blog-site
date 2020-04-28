@@ -2,7 +2,7 @@
 
 #content header {
     box-sizing: border-box;
-    background: url("../static/blog-2-background.png");
+    background: url("../images/blog-2-background.png");
     background-size: cover;
     background-attachment: fixed;
     background-position: .5em;
