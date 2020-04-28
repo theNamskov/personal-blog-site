@@ -39,6 +39,7 @@ h2, h3 {
 }
 
 .header-text {
+    position: relative;
     z-index: 5;
 }
 
@@ -138,12 +139,13 @@ button {
 
 .social {
     height: 1vh;
+    width: 45vw;
     margin: .2em 0 .2em 0;
 }
 
 .social a img {
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
     margin: 0 .5em 0 0;
 }
 
