@@ -70,7 +70,7 @@ h2, h3 {
     min-width: 98vw;
     background: linear-gradient(to bottom right, #e2e2e24f, #b8b8b827, #a7a6a683, #929292ad, #9999998c, #36363667);
     background-position-x: .5em;
-    z-index: 2;
+    z-index: -1;
 }
 
 #content footer {
