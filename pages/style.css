@@ -116,7 +116,7 @@ blockquote {
 
 .blog-image {
     display: grid;
-    grid-template-rows: 67vw 2em;
+    grid-template-rows: 67vw 3em;
     grid-template-columns: 80vw;
     justify-content: center;
 }
@@ -127,6 +127,12 @@ blockquote {
 }
 
 .blog-image figcaption {
+    font-family: "roboto";
+    font-style: italic;
+    line-height: .8em;
+    color: white;
+    font-size: 1.2em;
+    margin: 1em 0;
     text-align: center;
 }
 
