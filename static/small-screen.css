@@ -110,7 +110,7 @@ main {
 footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;    
     font-size: 1em;
     font-weight: 500;
