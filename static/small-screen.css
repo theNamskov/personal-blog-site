@@ -1,5 +1,6 @@
 body {
     background: #1f1e1e;
+    color: #e4e4e4;
 }
 
 header {
@@ -13,16 +14,17 @@ header {
 }
 
 nav > a {
+    color: inherit;
     width: 30%;
     text-decoration: none;
     padding: 3em 1em .5em 0;
-    font-size: 1em;
+    font-size: .8em;
     text-align: right;
 }
 
 main {
     display: grid;
-    grid-template-rows: 40vh 1fr 9vh;
+    grid-template-rows: 20vh 1fr 9vh;
     grid-template-columns: 96%;
     margin-top: 1.5em;
 }
@@ -30,8 +32,8 @@ main {
 .brand {
     display: flex;
     align-items: center;
-    padding: 1.5em 0 2em .2em;
-    font-size: 5em;
+    padding: 1.5em 0 2em 3%;
+    font-size: 2.55em;
     font-weight: bold;
 }
 
@@ -45,6 +47,7 @@ main {
 .blog-posts {
     box-sizing: border-box;
     padding: 0 0 .5em .5em;
+    margin-left: 3%;
 }
 
 .blogs-collection {
@@ -53,20 +56,20 @@ main {
 }
 
 .card {
+    color: #2b2b2b;
     box-sizing: border-box;
     width: 90vw;
-    margin: 1em auto;
+    margin: 1em -.5em 1em 0;
     text-decoration: none;
     border: none;
     border-radius: 0.4em;
-    box-shadow: 0 .5em 1em #656566;
-    min-height: 5vh;
-    padding: 20% 1.5em;
+    box-shadow: 0 .5em 1em #333333;
+    min-height: 3vh;
+    padding: 15% .5em;
 }
 
 .blog-1 {
     background: url("blog-1-background.png") no-repeat;
-
 }
 
 .blog-2 {
@@ -75,6 +78,7 @@ main {
 
 .blog-3 {
     background: url("blog-3-background.png") no-repeat;
+
 }
 
 /* 
@@ -85,16 +89,16 @@ main {
 } */
 
 .blog-posts h2 {
-    font-size: 2.4em;
-    padding: .2em .5em 0 .5em;
+    font-size: 2.2em;
+    padding: .2em .5em 0 0;
 }
 
 .blogs-collection h3 {
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 .timestamp {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .icon {
@@ -108,8 +112,8 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;    
-    font-size: 1.5em;
-    font-weight: 1000;
+    font-size: 1em;
+    font-weight: 500;
     min-height: 5em;
     background: linear-gradient(to bottom right, #1b1b1b, #242323, #1e1e1f, #1d1f1f, #222222, #1a1919);
     box-shadow: 0 0 1em #252727;

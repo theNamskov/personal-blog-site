@@ -19,7 +19,7 @@ section p {
     padding:  .5em 0 1em 1em;
 }
 
-.text-gradient, h1, h2, h3 {
+.text-gradient {
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(#fdf9f6, #7d8081);
     -webkit-background-clip: text;
@@ -27,7 +27,8 @@ section p {
 }
 
 h2, h3 {
-    padding: 1em 0 0 1em;
+    color: #e4e4e4;
+    padding: 1em 0 0 .5em;
 }
 
 #content {
@@ -38,27 +39,43 @@ h2, h3 {
 }
 
 .header-text {
-    z-index: 3;
+    z-index: 5;
+}
+
+.blog-meta {
+    font-size: .8em;
+}
+
+.bio {
+    display: flex;
+    height: 3.5em;
 }
 
 #content h1 {
     max-width: 80%;
-    padding: 20vh 0 0 5vw;
+    padding: 16vh 0 0 5vw;
     font-size: 2.2em;
+}
+
+#content header {
+    color: #2b2b2b;
 }
 
 #content header::before {
     content: "";
+    padding-left: .5em;
     position: absolute;
-    max-height: 30vh;
-    min-width: 100vw;
-    background: rgba(114, 112, 112, 0.685);
+    min-height: 70vh;
+    min-width: 98vw;
+    background: linear-gradient(to bottom right, #e2e2e24f, #b8b8b827, #a7a6a683, #929292ad, #9999998c, #36363667);
+    background-position-x: .5em;
     z-index: 2;
 }
 
 #content footer {
     max-width: 80%;
-    margin: 20vh 0 10vh 5vw;
+    margin: 15vh 0 10vh 5vw;
+    z-index: 3;
 }
 
 .avatar {
@@ -72,13 +89,20 @@ h2, h3 {
 }
 
 .timestamp {
-    display: inline;
+    padding: 0 0 0 5vw;
+    font-size: .7em;
 }
 
 .icon {
     height: 1em;
     width: 1em;
     margin: .5em .4em 0 1em;
+}
+
+.timestamp .icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 .3em -.3em .3em;
 }
 
 #intro {
@@ -106,6 +130,17 @@ button {
     width: 1em;
     height: 1em;
     margin: 0 .4em;
+}
+
+.social {
+    height: 1vh;
+    margin: .2em 0 .2em 0;
+}
+
+.social a img {
+    height: 2em;
+    width: 2em;
+    margin: 0 .5em 0 0;
 }
 
 #review {
@@ -150,7 +185,20 @@ button {
 }
 
 .submit-button {
-    margin: 1em 0 0 70%;
+    margin: 1em 0 3em 70%;
+}
+
+#hyperlinks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 3em 0 3em 5vw;
+}
+
+#hyperlinks a {
+    color: rgb(212, 208, 208);
+    text-decoration: none;
+    width: 20%;
 }
 
 #blog-footer {
@@ -174,6 +222,29 @@ button {
     width: 2em;
 }
 
+@media screen and (min-width: 567px) {
+    #content h1 {
+        padding-top: 10vh;
+    }
+
+    .bio {
+        height: 3em;
+    }
+
+    button {
+        min-height: 10vh;
+        width: 25%;
+    }
+
+    .submit-button {
+        margin-left: 75%;
+    }
+    
+    #review form input {
+        min-height: 11vh;
+    }
+}
+
 @media screen and (min-width: 48em) {
     #content section {
         width: 95%;
@@ -184,8 +255,13 @@ button {
         margin-bottom: 2em;
     }
 
-    h1 {
-        font-size: 3.5em;
+    #content h1 {
+        font-size: 2.55em;
+        padding-top: 20vh;
+    }
+
+    .blog-meta {
+        font-size: .6em;
     }
 
     button {

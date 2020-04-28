@@ -1,2 +1,12 @@
 @import url("style.css");
 
+#content header {
+    box-sizing: border-box;
+    background: url("../static/blog-2-background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: .5em;
+    min-height: 70vh;
+    min-width: 98vw;
+}
+

@@ -1,15 +1,23 @@
 nav > a {
     width: 50%;
-    padding: 1em 0;
-    font-size: 1.4em;
+    padding: 1em 0 1em 2em;
+    font-size: 1em;
 }
 
 .brand {
-    font-size: 6em;
+    font-size: 2.7em;
+}
+
+.card {
+    padding-left: 3em;
 }
 
 .blog-posts h2 {
-    font-size: 4em;
+    font-size: 2.26em;
+}
+
+.blog-posts h3 {
+    font-size: 1.59em;
 }
 
 footer {
