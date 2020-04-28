@@ -5,7 +5,6 @@
     background: url("../static/blog-1-background.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-position-x: .5em;
     height: 70vh;
     min-width: 98vw;
 }
